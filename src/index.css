@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/*== CommentApp ==*/
+.wrapper {
+  width: 500px;
+  margin: 10px auto;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #f1f1f1;
+  padding: 20px;
+
+}
+/*== CommentInput ==*/
+
+.comment {
+
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid gray;
+  position: relative;
+}
+
+.comment-files {
+  margin-bottom: 20px;
+}
+
+.comment-files span {
+  display: inline-block;
+  color: blue;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+.comment-files input {
+  width: 350px;
+  height: 30px;
+}
+
+.comment-files textarea {
+  width: 350px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+.comment button {
+  width: 100px;
+  height: 30px;
+  background: red;
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  bottom:10px;
+  right: 0;
+}
+
+/*== Comment ==*/
+.comment-wrapper {
+  height: 50px;
+  line-height: 50px;
+  marign-bottom: 10px;
+}
+
+.comment-wrapper span:first-child {
+  margin-right: 10px;
+  color: blue;
+}
